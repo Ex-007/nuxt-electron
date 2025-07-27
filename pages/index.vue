@@ -13,7 +13,7 @@
 <style scoped>
 
 div{
-  margin: 40% auto;
+  margin: 100px auto;
 }
 h3 {
   color: rgb(87, 123, 123);
