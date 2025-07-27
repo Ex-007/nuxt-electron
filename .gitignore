@@ -1,0 +1,67 @@
+# ----------------------
+# General Node Stuff
+# ----------------------
+node_modules/
+dist/
+*.log
+.env
+.env.*
+
+
+# ----------------------
+# Nuxt 3
+# ----------------------
+.nuxt/
+.output/
+*.local
+
+# VS Code
+.vscode/
+.idea/
+
+# Cache
+.cache/
+.yarn/cache/
+.pnpm-store/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Electron Build Artifacts
+# ----------------------
+/build/
+/dist-electron/
+/release/
+/out/
+/app/*.exe
+*.dmg
+*.AppImage
+*.asar
+*.deb
+*.rpm
+
+# Electron Updater Artifacts
+*.blockmap
+latest*.yml
+*.exe
+*.snap
+*.pkg
+*.msi
+
+# Installer logs
+/squirrelsetup.log
+/update.log
+
+# Electron-builder temp
+*.unpacked
+
+# GitHub release drafts (optional)
+/drafts/
+
+# ----------------------
+# Yarn/NPM Logs
+# ----------------------
+yarn-error.log
+npm-debug.log
